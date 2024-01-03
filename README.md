@@ -8,7 +8,7 @@ To seed Software Names, Publishers, and Versions, execute the following command,
 ruby seeder.rb TYPE=software NAME_COUNT=10000000 BATCH_SIZE=1000
 ```
 
-#### ENV variables:
+### ENV variables:
 **NAME_COUNT:** Number of Software Names to generate (Default: 10,000,000)  
 **PUBLISHER_COUNT:** Number of Software Publishers to generate (Default: NAME_COUNT / 5)  
 **VERSION_COUNT:** Number of Software Versions to generate (Default: NAME_COUNT / 1.25)  
@@ -61,7 +61,7 @@ After loading software data, generate hardware entries with the following comman
 ruby seeder.rb TYPE=hardware HARDWARE_COUNT=250000 MIN_NAME_ID=208357 MAX_NAME_ID=10208357 MIN_PUBLISHER_ID=29622 MAX_PUBLISHER_ID=2029622 MIN_VERSION_ID=77773 MAX_VERSION_ID=8077773
 ```
 
-#### ENV variables:  
+### ENV variables:  
 **HARDWARE_COUNT:** Number of Hardwares to generate (Default: 250,000)  
 **MIN_SOFTWARE_COUNT:** Minimum software installations per hardware (Default: 50)  
 **MAX_SOFTWARE_COUNT:** Maximum software installations per hardware (Default: 500)  
