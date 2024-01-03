@@ -1,0 +1,28 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    coderay (1.1.3)
+    concurrent-ruby (1.2.2)
+    faker (3.2.2)
+      i18n (>= 1.8.11, < 2)
+    i18n (1.14.1)
+      concurrent-ruby (~> 1.0)
+    method_source (1.0.0)
+    mysql2 (0.5.5)
+    pry (0.14.2)
+      coderay (~> 1.1)
+      method_source (~> 1.0)
+
+PLATFORMS
+  arm64-darwin-22
+
+DEPENDENCIES
+  faker (= 3.2.2)
+  mysql2 (= 0.5.5)
+  pry (= 0.14.2)
+
+RUBY VERSION
+   ruby 3.1.4p223
+
+BUNDLED WITH
+   2.4.21
