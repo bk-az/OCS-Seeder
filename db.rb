@@ -2,7 +2,7 @@
 
 class Db
   def self.client
-    @client ||= Mysql2::Client.new(username: 'root', password: 'lalalala', database: 'ocsweb')
+    @client ||= Mysql2::Client.new(username: 'root', password: 'password', database: 'ocsweb')
   end
 
   def self.insert_all(table_name, data)
